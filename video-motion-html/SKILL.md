@@ -459,7 +459,3 @@ Pesan gagal yang umum:
 | Durasi tidak diketahui | `OPENER.DURATION` kosong atau 0 |
 | Font berbeda dari preview | server tidak bisa mengunduh font dari CDN; sertakan berkas font di ZIP |
 | Gerak patah atau melompat di MP4 | ada animasi CSS, `setTimeout`, atau nilai yang bergantung pada frame sebelumnya |
-
-## Aturan seri
-
-Bila video termasuk sebuah seri, aturan serinya (tokoh, warna, suara, ajakan wajib, penomoran folder) menang atas pilihan bebas di berkas ini, tetapi tidak atas "Aturan tetap", "Visual yang dilarang", dan "Aturan kode". Untuk seri Belajar Bareng Tata, baca juga `.claude/skills/belajar-bareng-tata/SKILL.md`; rig tokohnya (fungsi `person`, `pose`, `expr`) ada di `belajar-bareng-tata/001-cara-pipis-toilet/index.html`. Suara seri itu tercatat memakai ElevenLabs; tanpa kunci ElevenLabs, pakai `id-ID-GadisNeural` dengan kecepatan `-10%` dan beri tahu pengguna bahwa suaranya berbeda dari video sebelumnya.
